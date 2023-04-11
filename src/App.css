@@ -1,0 +1,141 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} 
+
+body { 
+  background-color: #0000007e; 
+  color: #fff;
+}
+
+.sidenav {
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  font-size: larger;
+  font-weight: bolder;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #5b5a5a;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column; 
+} 
+
+.links { 
+  color:white;  
+  margin: 20px;
+}
+ 
+.single-crewmate { 
+  height: 150px;  
+  width: auto;   
+  position: absolute; 
+  bottom: 10px; 
+} 
+
+.welcome-images { 
+  width: 500px; 
+  height: auto; 
+} 
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}  
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+  font-size: larger; 
+} 
+
+.mini-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+  background-color: #a2a1a180; 
+}  
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color .25s;
+} 
+
+.top-text { 
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+} 
+
+li {
+  text-align: left; 
+  list-style: none;
+}
+
+input[type="radio" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 0px 5px;
+  padding: initial;
+  border: initial;
+} 
+
+#Red {
+  box-shadow: 15px -20px 15px #be2a2a4d;
+} 
+
+#Green {
+  box-shadow: 15px -20px 15px #38be314d;
+} 
+
+#Blue {
+  box-shadow: 15px -20px 15px #201ba84d;
+} 
+
+.crewmate-box { 
+  border-radius: 10px;
+    border-style: double;
+    border-color: #00000043;
+    height: auto;
+    box-shadow: 0 0 5px 2px #faf9f94d;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+    background-color: #5b5a5a;
+} 
+
+.crewmate-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+}
